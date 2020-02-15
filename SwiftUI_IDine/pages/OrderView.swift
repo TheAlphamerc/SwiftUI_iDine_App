@@ -10,6 +10,7 @@ import SwiftUI
 
 struct OrderView: View {
     @EnvironmentObject var order: Order
+    
     var body: some View {
         NavigationView{
             List{
@@ -28,7 +29,7 @@ struct OrderView: View {
                     }
                 }
             }
-        .navigationBarTitle("Order") 
+        .navigationBarTitle("Order")
         .listStyle(GroupedListStyle())
         }
     }

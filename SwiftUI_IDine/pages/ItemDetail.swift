@@ -10,6 +10,7 @@ import SwiftUI
 
 struct ItemDetail: View {
     @EnvironmentObject var order: Order
+    @State var showAlert: Bool = false
     var item: MenuItem
     var body: some View {
         VStack{
@@ -25,10 +26,17 @@ struct ItemDetail: View {
             Text(item.description)
             .padding()
             Spacer()
-            Button("Order this"){
-                self.order.add(item: self.item)
+            Button(action:{
+                self.showAlert = true
+                self.order.add(item:self.item)
+            }){
+                 Text("Add to cart")
             }
-             .padding()
+            .padding(.top,20)
+            .alert(isPresented: $showAlert){
+                Alert(title: Text("Message"), message: Text("Item added to cart"))
+            }
+            .padding()
         }
         .navigationBarTitle(Text(item.name), displayMode: .inline)
     }
