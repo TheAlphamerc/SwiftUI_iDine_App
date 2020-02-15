@@ -130,6 +130,7 @@
 		1D913AA323F7AA820004CED6 /* fillet-steak-thumb@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D913A3323F7AA810004CED6 /* fillet-steak-thumb@3x.jpg */; };
 		1D913AA423F7AA820004CED6 /* straight-up-oj@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D913A3423F7AA810004CED6 /* straight-up-oj@3x.jpg */; };
 		1D913AA923F7AFAD0004CED6 /* MenuItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D913AA823F7AFAD0004CED6 /* MenuItemRow.swift */; };
+		1D913AAB23F7D7BB0004CED6 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D913AAA23F7D7BB0004CED6 /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -258,6 +259,7 @@
 		1D913A3323F7AA810004CED6 /* fillet-steak-thumb@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fillet-steak-thumb@3x.jpg"; sourceTree = "<group>"; };
 		1D913A3423F7AA810004CED6 /* straight-up-oj@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "straight-up-oj@3x.jpg"; sourceTree = "<group>"; };
 		1D913AA823F7AFAD0004CED6 /* MenuItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemRow.swift; sourceTree = "<group>"; };
+		1D913AAA23F7D7BB0004CED6 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -462,6 +464,7 @@
 			isa = PBXGroup;
 			children = (
 				1D913AA823F7AFAD0004CED6 /* MenuItemRow.swift */,
+				1D913AAA23F7D7BB0004CED6 /* ItemDetail.swift */,
 			);
 			path = "Supporting Views";
 			sourceTree = "<group>";
@@ -655,6 +658,7 @@
 				1D9139A823F7A85E0004CED6 /* SceneDelegate.swift in Sources */,
 				1D913AA923F7AFAD0004CED6 /* MenuItemRow.swift in Sources */,
 				1D9139AA23F7A85E0004CED6 /* ContentView.swift in Sources */,
+				1D913AAB23F7D7BB0004CED6 /* ItemDetail.swift in Sources */,
 				1D9139BB23F7A9740004CED6 /* Helper.swift in Sources */,
 				1D9139BE23F7A9E00004CED6 /* Menu.swift in Sources */,
 			);
