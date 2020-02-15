@@ -28,7 +28,7 @@ struct MenuItem: Codable, Equatable, Identifiable{
     }
 
     var thumbnailImage: String {
-        "\(mainImage)-thumb"
+        "\(mainImage)-thumb@2x"
     }
 
     #if DEBUG
