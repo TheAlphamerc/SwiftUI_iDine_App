@@ -133,6 +133,7 @@
 		1D913AAB23F7D7BB0004CED6 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D913AAA23F7D7BB0004CED6 /* ItemDetail.swift */; };
 		1D913AAE23F7E4370004CED6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D913AAD23F7E4370004CED6 /* OrderView.swift */; };
 		1D913AB023F806D10004CED6 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D913AAF23F806D10004CED6 /* AppView.swift */; };
+		1D913AB223F810690004CED6 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D913AB123F810690004CED6 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -264,6 +265,7 @@
 		1D913AAA23F7D7BB0004CED6 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		1D913AAD23F7E4370004CED6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		1D913AAF23F806D10004CED6 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		1D913AB123F810690004CED6 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -479,6 +481,7 @@
 				1D913AAA23F7D7BB0004CED6 /* ItemDetail.swift */,
 				1D913AAD23F7E4370004CED6 /* OrderView.swift */,
 				1D913AAF23F806D10004CED6 /* AppView.swift */,
+				1D913AB123F810690004CED6 /* CheckoutView.swift */,
 			);
 			path = pages;
 			sourceTree = "<group>";
@@ -668,6 +671,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D9139C023F7AA0E0004CED6 /* Order.swift in Sources */,
+				1D913AB223F810690004CED6 /* CheckoutView.swift in Sources */,
 				1D9139A623F7A85E0004CED6 /* AppDelegate.swift in Sources */,
 				1D9139A823F7A85E0004CED6 /* SceneDelegate.swift in Sources */,
 				1D913AA923F7AFAD0004CED6 /* MenuItemRow.swift in Sources */,
