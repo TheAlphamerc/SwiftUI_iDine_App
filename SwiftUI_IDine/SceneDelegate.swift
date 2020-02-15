@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  SwiftUI_IDine
 //
-//  Created by Ashwin Das on 15/02/20.
+//  Created by TheAlphamerc on 15/02/20.
 //  Copyright © 2020 TheAlphamerc. All rights reserved.
 //
 
