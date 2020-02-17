@@ -25,6 +25,9 @@ IDine app is is a restaurant app that lists items in a menu and helps folks plac
 ![](https://github.com/TheAlphamerc/SwiftUI_IDine_App/blob/master/screenshots/screenshot_3.png?raw=true)|![](https://github.com/TheAlphamerc/SwiftUI_IDine_App/blob/master/screenshots/screenshot_4.png?raw=true)|![](https://github.com/TheAlphamerc/SwiftUI_IDine_App/blob/master/screenshots/screenshot_5.png?raw=true) 
 ![](https://github.com/TheAlphamerc/SwiftUI_IDine_App/blob/master/screenshots/screenshot_6.png?raw=true)|![](https://github.com/TheAlphamerc/SwiftUI_IDine_App/blob/master/screenshots/screenshot_7.png?raw=true)|![](https://github.com/TheAlphamerc/SwiftUI_IDine_App/blob/master/screenshots/screenshot_8.png?raw=true) 
 
+## Tutorial Credit
+App tutorial credit goes to [Hacking with Swift](https://www.hackingwithswift.com/quick-start/swiftui). You can learn more about swiftUI from there.
+
 ## Pull Requests
 
 I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
